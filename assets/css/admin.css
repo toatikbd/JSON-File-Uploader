@@ -1,0 +1,128 @@
+/* JSON Uploader Admin Styles */
+
+.wrap {
+    max-width: 1200px;
+}
+
+.server-config-section,
+.upload-status-section,
+.upload-form-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.server-config-section h2,
+.upload-status-section h2,
+.upload-form-section h2 {
+    margin-top: 0;
+    color: #23282d;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Upload Toggle Styles */
+#upload-toggle {
+    margin-right: 8px;
+    transform: scale(1.2);
+}
+
+.upload-status-section label {
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.upload-status-section .description {
+    margin-top: 8px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Upload Instructions Styles */
+.upload-instructions {
+    margin-top: 15px;
+}
+
+.upload-instructions ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.upload-instructions li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.upload-instructions .description {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 4px solid #0073aa;
+}
+
+
+
+/* Server Configuration Table */
+.server-config-section table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.server-config-section table th {
+    background: #f9f9f9;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid #ddd;
+    width: 150px;
+}
+
+.server-config-section table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.server-config-section table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+
+
+/* Button Styles */
+.button-secondary {
+    margin-right: 10px;
+}
+
+/* Notice Styles */
+.notice {
+    margin: 15px 0;
+}
+
+.json-uploader-notice {
+    position: relative;
+}
+
+/* Responsive Design */
+@media (max-width: 782px) {
+    .server-config-section,
+    .upload-status-section,
+    .upload-form-section {
+        padding: 15px;
+    }
+    
+    .server-config-section table {
+        font-size: 12px;
+    }
+    
+    .server-config-section table th,
+    .server-config-section table td {
+        padding: 8px;
+    }
+}
+
+

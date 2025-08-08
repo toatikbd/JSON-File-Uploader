@@ -1,0 +1,11 @@
+Plugin Structure:
+
+json-file-uploader/
+├── json-uploader.php          # Main plugin file
+├── README.txt                 # Installation and usage instructions
+├── uninstall.php             # Cleanup on plugin deletion
+    ├── css/
+    │   ├── admin.css         # Admin interface styling
+    ├── js/
+    │   ├── admin.js          # JavaScript functionality
+    └── index.php             # Security file
