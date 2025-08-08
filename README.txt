@@ -1,4 +1,4 @@
-=== JSON Uploader ===
+=== JSON File Uploader ===
 Contributors: Atiqur Rahaman
 Tags: json, upload, admin, tools, file management
 Requires at least: 5.0
@@ -44,7 +44,7 @@ Uploaded files are stored in the WordPress Media Library:
 
 == Installation ==
 
-1. Upload the `json-uploader` folder to the `/wp-content/plugins/` directory
+1. Upload the `JSON-File-Uploader` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Navigate to 'Tools' > 'Upload JSON' in the WordPress admin
 4. Configure upload settings and start uploading JSON files
@@ -53,7 +53,7 @@ Uploaded files are stored in the WordPress Media Library:
 
 1. Download the plugin files
 2. Extract the ZIP file
-3. Upload the `json-uploader` folder to `/wp-content/plugins/`
+3. Upload the `JSON-File-Uploader` folder to `/wp-content/plugins/`
 4. Activate the plugin in WordPress admin
 
 = Requirements =

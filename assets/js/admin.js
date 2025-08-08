@@ -5,13 +5,13 @@ jQuery(document).ready(function($) {
         var isChecked = $(this).is(':checked');
         var newStatus = isChecked ? '1' : '0';
         
-        if (confirm(jsonUploaderAjax.strings.confirmToggle)) {
+        if (confirm(jsonFileUploaderAjax.strings.confirmToggle)) {
             $.ajax({
-                url: jsonUploaderAjax.ajaxurl,
+                url: jsonFileUploaderAjax.ajaxurl,
                 type: 'POST',
                 data: {
-                    action: 'json_uploader_toggle_upload',
-                    nonce: jsonUploaderAjax.nonce,
+                    action: 'json_file_uploader_toggle_upload',
+                    nonce: jsonFileUploaderAjax.nonce,
                     status: newStatus
                 },
                 success: function(response) {
@@ -21,10 +21,10 @@ jQuery(document).ready(function($) {
                         var noticeClass = isChecked ? 'notice-success' : 'notice-warning';
                         
                         // Remove existing notices
-                        $('.json-uploader-notice').remove();
+                        $('.json-file-uploader-notice').remove();
                         
                         // Add new notice
-                        var notice = $('<div class="notice ' + noticeClass + ' json-uploader-notice"><p>' + message + '</p></div>');
+                        var notice = $('<div class="notice ' + noticeClass + ' json-file-uploader-notice"><p>' + message + '</p></div>');
                         $('.wrap h1').after(notice);
                         
                         // Auto-hide notice after 3 seconds
